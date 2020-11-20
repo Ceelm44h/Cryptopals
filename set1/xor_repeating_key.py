@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import sys, operator
+import sys
 
 def xorWithKey(text, key):
     output = [hex(ord(text[i])^ord(key[i%len(key)]))[2:] for i in range(len(text))]
