@@ -1,6 +1,5 @@
 #!/usr/bin/python
-import math
-import sys
+import math, sys
 
 def main(argv):
     base64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
